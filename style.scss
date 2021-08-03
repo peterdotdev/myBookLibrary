@@ -1,0 +1,22 @@
+body {
+    background: #fbfbf8;
+    margin: 0 auto;
+    max-width: 1000px;
+    @media (min-width: 1200px) {
+        margin-top: 24px;
+    }
+}
+
+table {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    cursor: pointer;
+}
+
+td:nth-child(4) {
+    font-size: 18px;
+    margin: 0;
+}
